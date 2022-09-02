@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  font-family: monospace;
-  font-size: larger;
+  font-family: monaco;
+  font-size: 110%;
 }
 
 .Container {
@@ -16,6 +16,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: aliceblue;
+  animation: fade .9s ease-in;
 }
 
 .HeaderBackground {
@@ -28,14 +29,13 @@
   transform: translate(-50%, -50%);
   background-color: black;
   opacity: 90%;
+  animation: fade .9s ease-in;
 }
 
 .Link {
   color: #F5F5F5;
   text-decoration: none;
 }
-
-
 
 .Nav {
   display: flex;
@@ -55,23 +55,16 @@
 }
 
 .Nav a {
-  /* display: flex; */
-  transition: transform 0.5s;
-  transition: 0.4s;
-
+  transition: transform 0.2s;
+  transition: 0.1s;
   border-radius: 5px;
-
+  padding: 10px;
 }
 
 .Nav a:hover {
-  /* cursor: pointer; */
   transform: scale(1.05);
-  color: #F7F6F2;
   background-color: #F05454;
 }
-
-
-
 
 .ImagePlaceholderContainer {
   display: flex;
@@ -86,5 +79,32 @@
   width: 50vh;
   background-color: black;
   opacity: 90%;
+}
+
+.Video {
+  animation: fade .3s ease-in;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+@keyframes fade {
+  0% {
+    /* starting point for anything with an 'animation' tag */
+    opacity: 0%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* changes when screen becomes phone width */
+
+  .Nav a {
+    display: flex;
+  }
 
 }
