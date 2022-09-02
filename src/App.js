@@ -2,8 +2,8 @@ import './App.css';
 import { useRef } from 'react'
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Home from './components/Home';
-import Nav from './components/Nav';
 import About from './components/About';
+import Image from './components/Image';
 
 function App() {
 
@@ -45,20 +45,28 @@ function App() {
   // handleResumeClick = { handleResumeClick }
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route
-          path='/'
-          element={<Home titleRef={titleRef} />}
-        />
-        <Route
-          path='/about'
-          element={<About aboutRef={aboutRef} />}
-        />
+    <div className='App'>
+
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path='/'
+            element={<Home titleRef={titleRef} />}
+          />
+          <Route
+            path='/about'
+            element={<About aboutRef={aboutRef} />}
+          />
+
+          <Route
+            path='/still-gallery'
+            element={<Image />}
+          />
 
 
-      </Routes>
-    </BrowserRouter>
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
