@@ -9,12 +9,13 @@ const Nav = ({
 }) => {
 
     return (
-        <div>
-            <Link to='/'><h3 onClick={handleTitleClick}>K.Kennedy Art Show Extravaganza</h3></Link>
-            <Link to='/about' > <a onClick={handleAboutClick} >about&nbsp;</a> </Link>
-            <Link to='/still-gallery'><a onClick={handleProjectClick} >Non-Moving Things&nbsp;</a></Link>
-            <a onClick={handleContactClick} >contact&nbsp;</a>
-            <a onClick={handleResumeClick} >resume&nbsp;</a>
+        <div className='Nav'>
+            <Link className='Link' to='/'><h3 style={{ margin: '0' }}>K.Kennedy Art Show Extravaganza</h3></Link>
+            <Link className='Link' to='/about' > <a>about</a> </Link>
+            <Link className='Link' to='/still-gallery'><a>Non-Moving Things</a></Link>
+            <Link className='Link' to='/moving-gallery'><a>Moving Things</a></Link>
+            <Link className='Link' to='/contact'><a>contact</a></Link>
+            <Link className='Link' to='/resume'><a>resume</a></Link>
         </div>
     )
 }

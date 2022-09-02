@@ -1,12 +1,11 @@
-import Nav
-    from "./Nav";
-const Image = () => {
+import Nav from "./Nav";
+
+const Animation = () => {
     return (
         <div>
             <Nav />
             <div className="Container">
-                <h1>Images All Over This Bitch</h1>
-
+                <h1>Animations and Stop Motion</h1>
                 <div className="ImagePlaceholderContainer">
                     <div className='ImagePlaceholder'></div>
                     <div className='ImagePlaceholder'></div>
@@ -23,4 +22,4 @@ const Image = () => {
     )
 }
 
-export default Image;
+export default Animation;

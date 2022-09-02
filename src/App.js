@@ -1,48 +1,13 @@
 import './App.css';
-import { useRef } from 'react'
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Image from './components/Image';
+import Contact from './components/Contact';
+import Animation from './components/Animation';
+import Resume from './components/Resume';
 
 function App() {
-
-  const titleRef = useRef()
-  const aboutRef = useRef()
-  const projectRef = useRef()
-  const contactRef = useRef()
-  const resumeRef = useRef()
-
-  const handleTitleClick = () => {
-    titleRef.current.scrollIntoView({ behavior: 'smooth' })
-  }
-  const handleAboutClick = () => {
-    aboutRef.current.scrollIntoView({ behavior: 'smooth' })
-  }
-  const handleProjectClick = () => {
-    projectRef.current.scrollIntoView({ behavior: 'smooth' })
-  }
-  const handleContactClick = () => {
-    contactRef.current.scrollIntoView({ behavior: 'smooth' })
-  }
-  const handleResumeClick = () => {
-    resumeRef.current.scrollIntoView({ behavior: 'smooth' })
-  }
-
-  // const clickHandler = () => {
-  // handleTitleClick()
-  // handleAboutClick()
-  // handleProjectClick()
-  // handleContactClick()
-  // handleResumeClick()
-  // }
-
-  // Props for the <Nav /> :
-  // handleTitleClick = { handleTitleClick }
-  // handleAboutClick = { handleAboutClick }
-  // handleProjectClick = { handleProjectClick }
-  // handleContactClick = { handleContactClick }
-  // handleResumeClick = { handleResumeClick }
 
   return (
     <div className='App'>
@@ -51,17 +16,34 @@ function App() {
         <Routes>
           <Route
             path='/'
-            element={<Home titleRef={titleRef} />}
+            element={<Home />}
           />
           <Route
             path='/about'
-            element={<About aboutRef={aboutRef} />}
+            element={<About />}
           />
 
           <Route
             path='/still-gallery'
             element={<Image />}
           />
+
+          <Route
+            path='/moving-gallery'
+            element={<Animation />}
+          />
+
+          <Route
+            path='/contact'
+            element={<Contact />}
+          />
+
+          <Route
+            path='/resume'
+            element={<Resume />}
+          />
+
+
 
 
         </Routes>

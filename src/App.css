@@ -1,3 +1,90 @@
 .App {
   text-align: center;
+  font-family: monospace;
+  font-size: larger;
+}
+
+.Container {
+  margin-top: 12vh;
+  max-width: 80vw;
+  margin-left: 10vw;
+}
+
+.HeaderContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+}
+
+.HeaderBackground {
+  position: absolute;
+  border: solid white;
+  height: 50vh;
+  width: 50vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  opacity: 90%;
+}
+
+.Link {
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+
+
+.Nav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 10vh;
+  justify-content: space-evenly;
+  flex-shrink: 1;
+  color: #F5F5F5;
+  background-color: #1577bc;
+  font-size: 200%;
+  /* sticky nav */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.Nav a {
+  /* display: flex; */
+  transition: transform 0.5s;
+  transition: 0.4s;
+
+  border-radius: 5px;
+
+}
+
+.Nav a:hover {
+  /* cursor: pointer; */
+  transform: scale(1.05);
+  color: #F7F6F2;
+  background-color: #F05454;
+}
+
+
+
+
+.ImagePlaceholderContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ImagePlaceholder {
+  position: relative;
+  border: solid white;
+  height: 50vh;
+  width: 50vh;
+  background-color: black;
+  opacity: 90%;
+
 }
