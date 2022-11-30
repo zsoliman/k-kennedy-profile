@@ -4,11 +4,12 @@ const Nav = () => {
 
     return (
         <div className='Nav'>
-
-            <Link
-                className='Link Header' to='/'>
-                <h3 style={{ margin: '0' }}>K.Kennedy Art Show Extravaganza</h3>
-            </Link>
+            <div className='Logo'>
+                <Link
+                    className='Link Header' to='/'>
+                    <h3 style={{ margin: '0' }}>K.Kennedy Art Show Extravaganza</h3>
+                </Link>
+            </div>
 
             <Link
                 className='Link' to='/about'>

@@ -1,5 +1,6 @@
 import MixingPaint from './video/mixingPaint.mp4';
 import Nav from "./Nav";
+
 const Home = ({ titleRef }) => {
 
     return (

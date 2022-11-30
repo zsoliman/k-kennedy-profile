@@ -43,9 +43,6 @@ function App() {
             element={<Resume />}
           />
 
-
-
-
         </Routes>
       </BrowserRouter>
     </div>
