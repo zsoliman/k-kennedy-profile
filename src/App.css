@@ -11,6 +11,18 @@
   margin-left: 10vw;
 }
 
+.enterBtn {
+  color: white;
+  background-color: black;
+  font-size: large;
+  border-radius: 25px;
+  height: 3em;
+  width: 8em;
+  margin: 0 10vw;
+  border: none;
+  cursor: pointer;
+}
+
 .HeaderContainer {
   position: absolute;
   top: 50%;

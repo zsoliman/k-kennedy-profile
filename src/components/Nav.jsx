@@ -7,7 +7,7 @@ const Nav = () => {
             <div className='Logo'>
                 <Link
                     className='Link Header' to='/'>
-                    <h3 style={{ margin: '0' }}>K.Kennedy Art Show Extravaganza!</h3>
+                    <h3 style={{ margin: '0' }}>The Kennedy Art Show</h3>
                 </Link>
             </div>
 

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import MixingPaint from './video/mixingPaint.mp4';
 import Nav from "./Nav";
 
@@ -5,7 +6,6 @@ const Home = ({ titleRef }) => {
 
     return (
         <div ref={titleRef} className="Header">
-            <Nav />
             <video
                 className='Video'
                 autoPlay
@@ -17,9 +17,17 @@ const Home = ({ titleRef }) => {
 
             <div className='HeaderBackground'></div>
             <div className='HeaderContainer'>
-                <h1>The Kennedy of Art</h1>
+                <h1>The Kennedy Art Show</h1>
                 <p className='Name'>by Karla</p>
+
+                <Link
+                    className='Link' to='/about'>
+
+                    <button className="enterBtn">Enter &nbsp; ></button>
+                </Link>
+
             </div>
+
 
         </div >
     )
