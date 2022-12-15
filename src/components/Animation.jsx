@@ -1,4 +1,5 @@
 import Nav from "./Nav";
+import Footer from "./Footer";
 
 const Animation = () => {
     return (
@@ -18,6 +19,7 @@ const Animation = () => {
                     <div className='ImagePlaceholder'></div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

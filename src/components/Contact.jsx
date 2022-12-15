@@ -1,4 +1,5 @@
 import Nav from "./Nav";
+import Footer from "./Footer";
 
 const Contact = () => {
     return (
@@ -12,6 +13,7 @@ const Contact = () => {
                 <h3>Regular mail</h3>
                 <h3>Show up at her house</h3>
             </div>
+            <Footer />
         </div>
     )
 }

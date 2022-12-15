@@ -23,6 +23,10 @@
   cursor: pointer;
 }
 
+.Footer {
+  font-size: 1.2em;
+}
+
 .HeaderContainer {
   position: absolute;
   top: 50%;
