@@ -17,10 +17,8 @@ const Home = ({ titleRef }) => {
 
             <div className='HeaderBackground'></div>
             <div className='HeaderContainer'>
-                <p>hi, my name is...</p>
-                <h1>Karla Kennedy</h1>
-                <p >and I'm a...</p>
-                <h2>Mother Fucking Artist</h2>
+                <h1>The Kennedy of Art</h1>
+                <p className='Name'>by Karla</p>
             </div>
 
         </div >

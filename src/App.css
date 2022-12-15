@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 110%;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: Gill Sans,
+    sans-serif;
 }
 
 .Container {
@@ -17,18 +18,19 @@
   transform: translate(-50%, -50%);
   color: aliceblue;
   animation: fade .9s ease-in;
+  font-size: 2.5em;
 }
 
 .HeaderBackground {
   position: absolute;
-  border: solid white;
-  height: 50vh;
-  width: 50vh;
+  /* border: 5px solid white; */
+  height: 100vh;
+  width: 100vw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: black;
-  opacity: 90%;
+  opacity: 75%;
   animation: fade .9s ease-in;
 }
 
@@ -66,6 +68,7 @@
   color: white;
   box-shadow: 1px 15px 20px #00000041;
   height: 7vh;
+  font-size: 1.5em;
   /* sticky nav */
   position: sticky;
   top: 0;
@@ -83,6 +86,13 @@
 .Nav a:hover {
   transform: scale(1.05);
   /* background-color: #F05454; */
+}
+
+.Name {
+  font-family: Brush Script MT,
+    Brush Script Std,
+    cursive;
+  font-size: 1.5em;
 }
 
 .ImagePlaceholderContainer {
