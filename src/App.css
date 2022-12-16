@@ -59,22 +59,11 @@
   padding: 0 5em;
 }
 
-/* .Nav {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  height: 7vh;
-  justify-content: space-evenly;
-  flex-shrink: 1;
-  text-shadow: 5px 5px 5px #000000;
-  background-color: #00000070;
-  font-size: 200%; */
-/* sticky nav */
-/* position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 2;
-} */
+.modal {
+  width: 75vw;
+  height: auto;
+  z-index: 5;
+}
 
 .Nav {
   display: flex;
@@ -122,6 +111,7 @@
   border: solid white;
   height: 50vh;
   width: 50vh;
+  cursor: pointer;
 }
 
 .ImagePlaceholderContainer {
