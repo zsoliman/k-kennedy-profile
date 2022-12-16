@@ -18,12 +18,12 @@ const Nav = () => {
 
             <Link
                 className='Link' to='/still-gallery'>
-                <a>Non-Moving Things</a>
+                <a>Images & Creations</a>
             </Link>
 
             <Link
                 className='Link' to='/moving-gallery'>
-                <a>Moving Things</a>
+                <a>Animations</a>
             </Link>
 
             <Link

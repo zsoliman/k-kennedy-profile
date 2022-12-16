@@ -6,7 +6,7 @@
 }
 
 .Container {
-  margin-top: 12vh;
+  margin-top: 5vh;
   max-width: 80vw;
   margin-left: 10vw;
 }
@@ -109,6 +109,19 @@
     Brush Script Std,
     cursive;
   font-size: 1.5em;
+}
+
+.ImageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ImageThumbnail {
+  position: relative;
+  border: solid white;
+  height: 50vh;
+  width: 50vh;
 }
 
 .ImagePlaceholderContainer {
