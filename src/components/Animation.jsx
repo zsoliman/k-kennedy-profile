@@ -7,7 +7,7 @@ const Animation = () => {
             <Nav />
             <div className="Container">
                 <h1>Animations and Stop Motion</h1>
-                <div className="ImagePlaceholderContainer">
+                <div className="ImageContainer">
                     <div className='ImagePlaceholder'></div>
                     <div className='ImagePlaceholder'></div>
                     <div className='ImagePlaceholder'></div>

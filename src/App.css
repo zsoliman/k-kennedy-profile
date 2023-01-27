@@ -69,6 +69,10 @@
   animation: fade .9s ease-in;
 }
 
+.hidden {
+  display: none;
+}
+
 .Link {
   color: #F5F5F5;
   text-decoration: none;
@@ -80,7 +84,7 @@
 
 .modal {
   width: 75vw;
-  height: auto;
+  height: 75vh;
   z-index: 5;
 }
 
@@ -123,6 +127,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 10vh;
 }
 
 .ImageThumbnail {

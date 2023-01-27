@@ -22,9 +22,10 @@ const Image = () => {
             <div className="Container">
                 <h1>Images & Creations</h1>
 
+                {/* <Modal /> */}
+
                 <div className="ImageContainer">
-                    <img
-                        className="ImageThumbnail" src={DSC_0810} />
+                    <img className="ImageThumbnail" src={DSC_0810} />
                     <img className="ImageThumbnail" src={DSC_0822} />
                     <img className="ImageThumbnail" src={IMG_1652} />
                     <img className="ImageThumbnail" src={IMG_1653} />
