@@ -6,6 +6,7 @@ import Image from './components/Image';
 import Contact from './components/Contact';
 import Animation from './components/Animation';
 import Resume from './components/Resume';
+import ContactThankYou from './components/ContactThankYou';
 
 function App() {
 
@@ -41,6 +42,11 @@ function App() {
           <Route
             path='/resume'
             element={<Resume />}
+          />
+
+          <Route
+            path='/sent'
+            element={<ContactThankYou />}
           />
 
         </Routes>
