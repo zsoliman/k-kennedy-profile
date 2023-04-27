@@ -5,12 +5,6 @@
     sans-serif;
 }
 
-.Container {
-  margin-top: 5vh;
-  max-width: 80vw;
-  margin-left: 10vw;
-}
-
 .enterBtn {
   color: white;
   background-color: black;
@@ -33,17 +27,26 @@
   color: white;
 }
 
-.formDiv {
-  width: 50vw;
-}
-
-.form {
+.contactContainer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin-top: 5vh;
+  /* max-width: 80vw; */
 }
 
-.form input {
+.contactForm {
+  margin-bottom: 1vh;
+}
+
+.contactForm input {
+  width: 30vw;
   height: 2em;
+}
+
+.contactForm textarea {
+  width: 50vw;
+  height: 5em;
 }
 
 .HeaderContainer {

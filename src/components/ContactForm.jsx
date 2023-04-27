@@ -27,30 +27,30 @@ const ContactForm = () => {
             method="POST"
             target="_blank"
         >
-            <div className="mb-3 pt-0">
+            <div className="contactForm">
                 <input
                     type="text"
-                    placeholder="Your name"
+                    placeholder="Name..."
                     name="name"
                     required
                 />
             </div>
-            <div className="mb-3 pt-0">
+            <div className="contactForm">
                 <input
                     type="email"
-                    placeholder="Email"
+                    placeholder="Email..."
                     name="email"
                     required
                 />
             </div>
-            <div className="mb-3 pt-0">
+            <div className="contactForm">
                 <textarea
-                    placeholder="Your message"
+                    placeholder="Your message..."
                     name="message"
                     required
                 />
             </div>
-            <div className="mb-3 pt-0">
+            <div className="contactForm">
                 <button
                     type="submit"
                 >

@@ -22,7 +22,7 @@ const Image = () => {
             <div className="Container">
                 <h1>Images & Creations</h1>
 
-                <Modal />
+                {/* <Modal /> */}
 
                 <div className="ImageContainer">
                     <img className="ImageThumbnail" src={DSC_0810} />
