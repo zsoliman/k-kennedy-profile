@@ -5,6 +5,31 @@
     sans-serif;
 }
 
+.Container {
+  margin: 5vh 5vw;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+.contactForm {
+  margin-bottom: 1vh;
+}
+
+.contactForm input {
+  width: 30vw;
+  height: 2em;
+}
+
+.contactForm textarea {
+  width: 50vw;
+  height: 5em;
+}
+
 .enterBtn {
   color: white;
   background-color: black;
@@ -25,28 +50,6 @@
   background-color: rgb(0, 0, 0);
   opacity: 85%;
   color: white;
-}
-
-.contactContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 5vh;
-  /* max-width: 80vw; */
-}
-
-.contactForm {
-  margin-bottom: 1vh;
-}
-
-.contactForm input {
-  width: 30vw;
-  height: 2em;
-}
-
-.contactForm textarea {
-  width: 50vw;
-  height: 5em;
 }
 
 .HeaderContainer {

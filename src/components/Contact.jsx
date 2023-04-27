@@ -10,8 +10,7 @@ const Contact = () => {
 
                 <h1>How to Contact the Artist:</h1>
                 <br />
-                <br />
-                <br />
+
                 <ContactForm />
             </div>
             <Footer />
