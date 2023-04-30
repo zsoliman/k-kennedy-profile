@@ -68,9 +68,13 @@ const Image = () => {
 
 
                     {/* <img src="https://drive.google.com/file/d/1g0Dbv10qjMGw7Y0WiSbVErq6NE-V5pph/view?usp=share_link" /> */}
+
                     {/* <img src="https://drive.google.com/uc?export=view&id=1g0Dbv10qjMGw7Y0WiSbVErq6NE-V5pph" /> */}
 
-                    <Modal isHidden={isHidden} />
+                    <Modal
+                        isHidden={isHidden}
+                        displayModal={displayModal}
+                    />
 
                     {driveArt.map((art, index) =>
                         <img
