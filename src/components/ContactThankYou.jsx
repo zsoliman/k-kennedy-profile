@@ -3,11 +3,15 @@ import Footer from "./Footer";
 
 const ContactThankYou = () => {
     return (
-        <div className="Container">
+        <div>
             <Nav />
-            <p>
-                Thank you for reaching out to The Artist. Your message has been received. We'll get back to you as soon as possible.
-            </p>
+            <div className="contactContainer">
+                <h1>Contact the Artist:</h1>
+                <br />
+                <br />
+                <div>Thank you!</div>
+                <div>We'll be in touch soon.</div>
+            </div>
             <Footer />
         </div>
     )

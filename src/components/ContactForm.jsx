@@ -14,6 +14,7 @@ const ContactForm = () => {
     if (submitted) {
         return (
             <>
+                <br />
                 <div>Thank you!</div>
                 <div>We'll be in touch soon.</div>
             </>

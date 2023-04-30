@@ -8,7 +8,7 @@ const Contact = () => {
             <Nav />
             <div className="contactContainer">
 
-                <h1>How to Contact the Artist:</h1>
+                <h1>Contact the Artist:</h1>
                 <br />
 
                 <ContactForm />
