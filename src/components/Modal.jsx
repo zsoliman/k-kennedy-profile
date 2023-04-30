@@ -1,9 +1,11 @@
 const Modal = ({ art, isHidden }) => {
     return (
         <div className={`${isHidden ? "hidden" : ""}`}>
-            <div className="HeaderBackground">
+            <div className="modalBackground">
                 <div className="modal">
-                    <img src={art} />
+                    {/* <img src={art} /> */}
+                    {/* {console.log("art", art)} */}
+                    <div className="ImagePlaceholder"></div>
                 </div>
             </div>
         </div >

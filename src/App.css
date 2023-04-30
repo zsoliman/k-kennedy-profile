@@ -50,6 +50,7 @@
   background-color: rgb(0, 0, 0);
   opacity: 85%;
   color: white;
+  z-index: 5;
 }
 
 .HeaderContainer {
@@ -58,7 +59,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: aliceblue;
-  animation: fade .9s ease-in;
+  animation: fade .5s ease-in;
   font-size: 2.5em;
 }
 
@@ -66,7 +67,7 @@
   position: absolute;
   /* border: 5px solid white; */
   height: 100vh;
-  width: 99vw;
+  width: 100vw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -89,9 +90,31 @@
 }
 
 .modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 75vw;
   height: 75vh;
-  z-index: 5;
+  z-index: 6;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalBackground {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  opacity: 75%;
+  animation: fade .25s ease-in;
+  z-index: 2;
 }
 
 .Nav {
@@ -107,7 +130,7 @@
   position: sticky;
   top: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 5;
 }
 
 .Nav a {
