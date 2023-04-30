@@ -104,6 +104,11 @@
   transform: translate(-50%, -50%);
 }
 
+.modalImg {
+  position: relative;
+  border: solid white 10px;
+}
+
 .modalBackground {
   position: fixed;
   height: 100vh;
@@ -165,6 +170,7 @@
   height: 50vh;
   width: auto;
   cursor: pointer;
+  z-index: 0;
 }
 
 .ImagePlaceholderContainer {

@@ -4,6 +4,7 @@ import Modal from "./Modal";
 import { useState } from "react";
 
 
+
 import DSC_0810 from './art/DSC_0810.JPG';
 import DSC_0822 from './art/DSC_0822.JPG';
 import IMG_1652 from './art/IMG_1652.jpg';
@@ -138,6 +139,7 @@ const Image = () => {
                             key={index}
                             onClick={displayModal}
                         />
+
                     )}
 
                 </div>
