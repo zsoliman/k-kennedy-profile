@@ -5,9 +5,13 @@ const Modal = ({ art, isHidden, displayModal }) => {
                 className="modalBackground"
                 onClick={displayModal}>
                 <div className="modal">
-                    {/* <img src={art} /> */}
+
+                    <img src={art} />
                     {/* {console.log("art", art)} */}
-                    <div className="ImagePlaceholder"></div>
+
+                    <div className="ImagePlaceholder">
+                    </div>
+
                 </div>
             </div>
         </div >
