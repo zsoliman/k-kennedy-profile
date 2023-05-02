@@ -130,6 +130,7 @@ const Image = () => {
                     <Modal
                         isHidden={isHidden}
                         displayModal={displayModal}
+                        driveArt={driveArt}
                     />
 
                     {driveArt.map((art, index) =>
@@ -138,8 +139,8 @@ const Image = () => {
                             src={art}
                             key={index}
                             onClick={displayModal}
-                        />
 
+                        />
                     )}
 
                 </div>

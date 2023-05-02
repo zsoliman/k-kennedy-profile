@@ -1,4 +1,4 @@
-const Modal = ({ art, isHidden, displayModal }) => {
+const Modal = ({ driveArt, isHidden, displayModal }) => {
     return (
         <div className={`${isHidden ? "hidden" : ""}`}>
             <div
@@ -6,8 +6,18 @@ const Modal = ({ art, isHidden, displayModal }) => {
                 onClick={displayModal}>
                 <div className="modal">
 
-                    <img className="modalImg" src={art} />
-                    {console.log("art", art)}
+                    {/* <img className="modalImg" src={art} />
+                    {console.log("art", art)} */}
+
+                    {driveArt.map((art, index) =>
+                        <img
+                            className="ImageThumbnail"
+                            src={art}
+                            key={index}
+                            onClick={displayModal}
+                        />
+
+                    )}
 
                 </div>
             </div>

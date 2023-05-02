@@ -167,7 +167,7 @@
 .ImageThumbnail {
   position: relative;
   border: solid white;
-  height: 50vh;
+  height: 35vh;
   width: auto;
   cursor: pointer;
   z-index: 0;
